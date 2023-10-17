@@ -11,3 +11,15 @@ uso del comando
  git -C /c/Lavoro/VW/Migration2Git/fromSvn/prova_git pull
 
 
+I comandi da eseguire per aggiornare la cartella di deploy sono i seguenti:
+
+0)
+[la prima_volta]
+mkdir /c/Lavoro/VW/tmp/cartella_deploy_git 
+1) 
+cd /c/Lavoro/VW/tmp/cartella_deploy_git
+2)
+git remote add -f origin https://github.com/limar1964/prova_git.git
+3)
+git pull origin master
+
