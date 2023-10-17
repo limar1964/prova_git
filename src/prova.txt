@@ -13,8 +13,9 @@ uso del comando
 
 I comandi da eseguire per aggiornare la cartella di deploy sono i seguenti:
 
-0)
+
 [la prima_volta]
+0)
 mkdir /c/Lavoro/VW/tmp/cartella_deploy_git 
 1) 
 cd /c/Lavoro/VW/tmp/cartella_deploy_git
@@ -23,3 +24,6 @@ git remote add -f origin https://github.com/limar1964/prova_git.git
 3)
 git pull origin master
 
+di seguito il comando da dare le volte successive
+
+ git -C /c/Lavoro/VW/tmp/cartella_deploy_git pull
